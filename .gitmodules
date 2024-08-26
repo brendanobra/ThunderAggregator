@@ -1,0 +1,18 @@
+[submodule "ThunderTools"]
+	path = ThunderTools
+	url = https://github.com/rdkcentral/ThunderTools.git
+[submodule "Thunder"]
+	path = Thunder
+	url = https://github.com/rdkcentral/Thunder.git
+[submodule "ThunderInterfaces"]
+	path = ThunderInterfaces
+	url = https://github.com/rdkcentral/ThunderInterfaces.git
+[submodule "ThunderNanoServices"]
+	path = ThunderNanoServices
+	url = https://github.com/rdkcentral/ThunderNanoServices.git
+[submodule "ThunderNanoServicesRDK"]
+	path = ThunderNanoServicesRDK
+	url = https://github.com/WebPlatformForEmbedded/ThunderNanoServicesRDK.git
+[submodule "ThunderClientLibraries"]
+	path = ThunderClientLibraries
+	url = https://github.com/rdkcentral/ThunderClientLibraries.git
