@@ -54,6 +54,6 @@ RUN git clone git://git.yoctoproject.org/poky
 WORKDIR /rdk_tools/poky
 RUN git checkout -b kirkstone origin/kirkstone
 WORKDIR /thunder_root
-ENV Thunder_DIR=${THUNDER}
+ENV Thunder_DIR="${RDK_TOOLS}/Thunder"
 RUN chown -R rdk:rdk /thunder_root
 ADD bb.sh "${BITBAKE_DIR}"
