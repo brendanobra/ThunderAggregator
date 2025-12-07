@@ -13,6 +13,7 @@ cmake -G Ninja -S ThunderNanoServices -B build/ThunderNanoServices \
 -DPLUGIN_SYSTEMCOMMANDS=ON \
 -DPLUGIN_SWITCHBOARD=ON \
 -DPLUGIN_WEBPROXY=ON \
--DPLUGIN_WEBSHELL=ON 
+-DPLUGIN_WEBSHELL=ON \
+-DPLUGIN_DICTIONARY=OFF 
 
 cmake --build build/ThunderNanoServices --target install
