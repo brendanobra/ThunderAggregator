@@ -34,8 +34,11 @@ RUN apt install -y  build-essential pkg-config cmake ninja-build libusb-1.0-0-de
     libwebsocketpp-dev meson libcunit1 libcunit1-dev \
     libunwind-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
     gawk wget git diffstat unzip texinfo gcc  chrpath socat cpio python3 python3-pip python3-pexpect \
-    xz-utils debianutils iputils-ping python3-git python3-jinja2 python3-subunit zstd liblz4-tool file locales libacl1
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+    xz-utils debianutils iputils-ping python3-git python3-jinja2 python3-subunit \
+    zstd liblz4-tool file locales libacl1 curl
+
+# Add cargo to the PATH for subsequent commands
+ENV PATH="/root/.cargo/bin:${PATH}"
 WORKDIR /rdk_tools
 RUN sudo chown -R rdk:rdk "${RDK_TOOLS}"
 
@@ -47,6 +50,10 @@ RUN  ninja -C build install
 
 
 USER "${USERNAME}"
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable
+ENV PATH="/home/rdk/.cargo/bin:${PATH}"
+
+
 ENV BITBAKE_DIR=${RDK_TOOLS}/poky 
 WORKDIR "${RDK_TOOLS}"
 RUN git clone git://git.yoctoproject.org/poky
