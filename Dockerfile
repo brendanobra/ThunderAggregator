@@ -35,7 +35,7 @@ RUN apt install -y  build-essential pkg-config cmake ninja-build libusb-1.0-0-de
     libunwind-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
     gawk wget git diffstat unzip texinfo gcc  chrpath socat cpio python3 python3-pip python3-pexpect \
     xz-utils debianutils iputils-ping python3-git python3-jinja2 python3-subunit zstd liblz4-tool file locales libacl1
-
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 WORKDIR /rdk_tools
 RUN sudo chown -R rdk:rdk "${RDK_TOOLS}"
 

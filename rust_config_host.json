@@ -1,0 +1,85 @@
+{
+ "version":"5.3.0",
+ "port": 9998,
+ "binding":"127.0.0.1",
+ "ipv6":false,
+ "idletime":180,
+ "softkillcheckwaittime":10,
+ "hardkillcheckwaittime":4,
+ "persistentpath":"/home/brendan/GITROOT/ThunderAggregator/install/var/Thunder",
+ "datapath":"/home/brendan/GITROOT/install/share/Thunder",
+ "systempath":"/home/brendan/GITROOT/install/lib/thunder/plugins",
+ "proxystubpath":"/home/brendan/GITROOT/install/lib/thunder/proxystubs",
+ "postmortempath":"/opt/minidumps",
+ "redirect":"/Service/Controller/UI/index.html",
+ "ethernetcard":"eth0",
+ "hibernate":{
+  "locator":"/tmp/memcrcom"
+ },
+ "process":{
+  "priority":0,
+  "policy":"OTHER",
+  "oomadjust":0,
+  "stacksize":0
+ },
+ "exitreasons":[
+  "Failure",
+  "MemoryExceeded",
+  "WatchdogExpired"
+ ],
+ "plugins":[
+  {
+   "callsign":"Controller"
+  },
+  {  "callsign": "RustHello",
+    "classname": "RustHello",
+    "locator": "ThunderRustHello",   
+    "autostart": "Activated",
+    "configuration": { }}
+ ],
+ "messaging":{
+  "path":"MessageDispatcher",
+  "port":0,
+  "stdout":false,
+  "stderr":false,
+  "datasize":20480,
+  "logging":{
+   "abbreviated":true,
+   "settings":[
+    {
+     "category":"AnyCategory",
+     "enabled":false
+    }
+   ]
+  },
+  "tracing":{
+   "settings":[
+    {
+     "module":"Plugin_AnyModule",
+     "enabled":true
+    },
+    {
+     "category":"AnyCategory",
+     "enabled":true
+    }
+   ]
+  },
+  "reporting":{
+   "abbreviated":true,
+   "settings":[
+    {
+     "category":"AnyCategory",
+     "enabled":false
+    }
+   ]
+  },
+  "assertion":{
+   "settings":[
+    {
+     "category":"AnyCategory",
+     "enabled":false
+    }
+   ]
+  }
+ }
+}
