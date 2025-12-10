@@ -21,9 +21,11 @@ cmake -G Ninja -S Thunder -B build/Thunder \
   -DCMAKE_INSTALL_PREFIX="${THUNDER_ROOT}/install" \
   -DCMAKE_PREFIX_PATH="${THUNDER_ROOT}/install" \
   -DCMAKE_MODULE_PATH="/thunder_root/cmake:${CMAKE_MODULE_PATH_JOINED}" \
-  -DBINDING="127.0.0.1" \
-  -DPORT=55555 \
-  -DEXCEPTIONS_ENABLE=ON
+  -DBINDING="0.0.0.0" \
+  -DPORT=9998 \
+  -DEXCEPTIONS_ENABLE=ON \
+  -DTOOLS_SYSROOT="${PWD}" \
+  -DINITV_SCRIPT=OFF 
 
 cmake --build build/Thunder -j"$(nproc)"
 cmake --install build/Thunder

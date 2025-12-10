@@ -7,9 +7,9 @@
  "softkillcheckwaittime":10,
  "hardkillcheckwaittime":4,
  "persistentpath":"/home/brendan/GITROOT/ThunderAggregator/install/var/Thunder",
- "datapath":"/home/brendan/GITROOT/install/share/Thunder",
- "systempath":"/home/brendan/GITROOT/install/lib/thunder/plugins",
- "proxystubpath":"/home/brendan/GITROOT/install/lib/thunder/proxystubs",
+ "datapath":"/home/brendan/GITROOT/ThunderAggregator/install/share/Thunder",
+ "systempath":"/home/brendan/GITROOT/ThunderAggregator/install/lib/thunder/plugins",
+ "proxystubpath":"/home/brendan/GITROOT/ThunderAggregator/install/lib/thunder/proxystubs",
  "postmortempath":"/opt/minidumps",
  "redirect":"/Service/Controller/UI/index.html",
  "ethernetcard":"eth0",
@@ -31,9 +31,10 @@
   {
    "callsign":"Controller"
   },
-  {  "callsign": "RustHello",
+  {  
+      "callsign": "RustHello",
     "classname": "RustHello",
-    "locator": "ThunderRustHello",   
+    "locator": "libThunderRustHello.so",
     "autostart": "Activated",
     "configuration": { }}
  ],

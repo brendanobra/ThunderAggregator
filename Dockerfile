@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV THUNDER_ROOT=/thunder_root
 ENV RDK_TOOLS=/rdk_tools
 ARG USERNAME=rdk
-ARG USER_UID=1000
+ARG USER_UID=1001
 ARG USER_GID=$USER_UID
 RUN groupadd --gid $USER_GID $USERNAME \
     && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
@@ -35,10 +35,13 @@ RUN apt install -y  build-essential pkg-config cmake ninja-build libusb-1.0-0-de
     libunwind-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev \
     gawk wget git diffstat unzip texinfo gcc  chrpath socat cpio python3 python3-pip python3-pexpect \
     xz-utils debianutils iputils-ping python3-git python3-jinja2 python3-subunit \
-    zstd liblz4-tool file locales libacl1 curl
+    zstd liblz4-tool file locales libacl1 curl gosu vim 
 
 # Add cargo to the PATH for subsequent commands
 ENV PATH="/root/.cargo/bin:${PATH}"
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable
+ENV PATH="/home/rdk/.cargo/bin:${PATH}"
+
 WORKDIR /rdk_tools
 RUN sudo chown -R rdk:rdk "${RDK_TOOLS}"
 
@@ -62,5 +65,10 @@ WORKDIR /rdk_tools/poky
 RUN git checkout -b kirkstone origin/kirkstone
 WORKDIR /thunder_root
 ENV Thunder_DIR="${RDK_TOOLS}/Thunder"
-RUN chown -R rdk:rdk /thunder_root
+#RUN chown -R rdk:rdk /thunder_root
 ADD bb.sh "${BITBAKE_DIR}"
+COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+USER root
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
+CMD ["bash"]
+

@@ -40,6 +40,7 @@ cmake -G Ninja \
   -DPLUGIN_SWITCHBOARD=ON \
   -DPLUGIN_WEBPROXY=ON \
   -DPLUGIN_WEBSHELL=ON \
+  -DPLUGIN_RUSTHELLO=ON \
   -DRUSTHELLO_SO="${RUST_TARGET_SO}"
 
 # 3) Build and install NanoServices (including RustHello)

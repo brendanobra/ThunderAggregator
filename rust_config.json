@@ -13,6 +13,7 @@
  "postmortempath":"/opt/minidumps",
  "redirect":"/Service/Controller/UI/index.html",
  "ethernetcard":"eth0",
+ "pluginconfigpath":"/thunder_root/install/etc/Thunder",
  "hibernate":{
   "locator":"/tmp/memcrcom"
  },
@@ -31,9 +32,10 @@
   {
    "callsign":"Controller"
   },
-   {  "callsign": "RustHello",
+   {  
+    "callsign": "RustHello",
     "classname": "RustHello",
-    "locator": "ThunderRustHello",
+    "locator": "libThunderRustHello.so",
     "autostart": "Activated",
     "configuration": { }}
 
