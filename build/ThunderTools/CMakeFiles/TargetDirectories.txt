@@ -1,6 +1,0 @@
-/thunder_root/build/ThunderTools/CMakeFiles/edit_cache.dir
-/thunder_root/build/ThunderTools/CMakeFiles/rebuild_cache.dir
-/thunder_root/build/ThunderTools/CMakeFiles/list_install_components.dir
-/thunder_root/build/ThunderTools/CMakeFiles/install.dir
-/thunder_root/build/ThunderTools/CMakeFiles/install/local.dir
-/thunder_root/build/ThunderTools/CMakeFiles/install/strip.dir

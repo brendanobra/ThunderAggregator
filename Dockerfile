@@ -59,7 +59,7 @@ ENV PATH="/home/rdk/.cargo/bin:${PATH}"
 
 ENV BITBAKE_DIR=${RDK_TOOLS}/poky 
 WORKDIR "${RDK_TOOLS}"
-RUN git clone git://git.yoctoproject.org/poky
+RUN git clone https://git.yoctoproject.org/poky
 
 WORKDIR /rdk_tools/poky
 RUN git checkout -b kirkstone origin/kirkstone

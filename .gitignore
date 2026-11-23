@@ -20,7 +20,7 @@ compile_commands.json
 install_manifest.txt
 CPackConfig.cmake
 CPackSourceConfig.cmake
-
+install/
 # Generated Make/Ninja files (avoid ignoring source Makefiles)
 build.ninja
 .ninja_deps
@@ -53,7 +53,8 @@ rules.ninja
 # ------------------------------------------------------------
 # Rust / Cargo
 # ------------------------------------------------------------
-target/
+**/target/
+target/*
 **/*.rs.bk
 
 # Keep Cargo.lock for applications and reproducible builds.

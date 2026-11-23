@@ -1,2 +1,0 @@
-cargo:rerun-if-changed=build.rs
-cargo:rustc-env=DEBUG_OUTPUT_DIR=/thunder_root/rust/rust_hello/target/debug/build/wasmtime-internal-component-macro-ab6f05bb1717a84e/out
