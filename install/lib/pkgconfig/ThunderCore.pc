@@ -1,0 +1,11 @@
+prefix=/thunder_root/install
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/Thunder
+
+Name: ThunderCore
+Version: 5.3.0
+Description: Abstraction layer basis for all core functionality
+
+Libs: -L${libdir}  -lThunderCore 
+Cflags: -I${includedir}    -D_TRACE_LEVEL=0 -D__CORE_MESSAGING__ -D__CORE_NO_WCHAR_SUPPORT__

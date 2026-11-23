@@ -1,0 +1,12 @@
+/home/brendan/GITROOT/ThunderAggregator/rust/rust_hello/target/debug/deps/ittapi-f4ca5118ca7a2423.d: /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/lib.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/collection_control.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/domain.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/event.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/jit.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/string.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/task.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/util.rs
+
+/home/brendan/GITROOT/ThunderAggregator/rust/rust_hello/target/debug/deps/libittapi-f4ca5118ca7a2423.rmeta: /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/lib.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/collection_control.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/domain.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/event.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/jit.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/string.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/task.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/util.rs
+
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/lib.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/collection_control.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/domain.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/event.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/jit.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/string.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/task.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ittapi-0.4.0/src/util.rs:

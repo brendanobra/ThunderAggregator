@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t thunder-build .
+docker build --network=host -t thunder-build .

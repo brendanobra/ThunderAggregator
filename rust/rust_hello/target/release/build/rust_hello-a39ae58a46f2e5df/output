@@ -1,0 +1,1 @@
+cargo:warning=Copying /thunder_root/rust/rust_hello/target/release/librust_hello.so → /thunder_root/rust/rust_hello/../../install/lib/librust_hello.so

@@ -12,15 +12,16 @@ cd "${THUNDER_ROOT}"
 RUST_CRATE_DIR="${THUNDER_ROOT}/rust/rust_hello"
 RUST_TARGET_SO="${RUST_CRATE_DIR}/target/release/librust_hello.so"
 
-echo "==> Building Rust FFI crate at ${RUST_CRATE_DIR}"
-cargo build --release --manifest-path "${RUST_CRATE_DIR}/Cargo.toml"
+#echo "==> Building Rust FFI crate at ${RUST_CRATE_DIR}"
+#
+#cargo build --release --manifest-path "${RUST_CRATE_DIR}/Cargo.toml"
 
-if [ ! -f "${RUST_TARGET_SO}" ]; then
-    echo "ERROR: Rust shared library not found at:"
-    echo "  ${RUST_TARGET_SO}"
-    echo "Did the crate build succeed and is crate-type = \"cdylib\"?"
-    exit 1
-fi
+#if [ ! -f "${RUST_TARGET_SO}" ]; then
+#    echo "ERROR: Rust shared library not found at:"
+#    echo "  ${RUST_TARGET_SO}"
+#    echo "Did the crate build succeed and is crate-type = \"cdylib\"?"
+#    exit 1
+#fi
 
 echo "==> Using Rust shared library: ${RUST_TARGET_SO}"
 
@@ -40,8 +41,8 @@ cmake -G Ninja \
   -DPLUGIN_SWITCHBOARD=ON \
   -DPLUGIN_WEBPROXY=ON \
   -DPLUGIN_WEBSHELL=ON \
-  -DPLUGIN_RUSTHELLO=ON \
-  -DRUSTHELLO_SO="${RUST_TARGET_SO}"
+  -DPLUGIN_RUSTHELLO=ON 
+#  -DRUSTHELLO_SO="${RUST_TARGET_SO}"
 
 # 3) Build and install NanoServices (including RustHello)
 cmake --build "${THUNDER_ROOT}/build/ThunderNanoServices" --target install

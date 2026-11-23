@@ -1,0 +1,12 @@
+/thunder_root/rust/rust_hello/target/release/deps/cpp_demangle-e7eb9801810d5b8c.d: /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/lib.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/logging.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/ast.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/error.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/index_str.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/subs.rs
+
+/thunder_root/rust/rust_hello/target/release/deps/libcpp_demangle-e7eb9801810d5b8c.rlib: /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/lib.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/logging.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/ast.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/error.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/index_str.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/subs.rs
+
+/thunder_root/rust/rust_hello/target/release/deps/libcpp_demangle-e7eb9801810d5b8c.rmeta: /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/lib.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/logging.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/ast.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/error.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/index_str.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/subs.rs
+
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/lib.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/logging.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/ast.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/error.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/index_str.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpp_demangle-0.4.5/src/subs.rs:

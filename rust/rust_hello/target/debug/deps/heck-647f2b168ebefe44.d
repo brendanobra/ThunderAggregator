@@ -1,0 +1,13 @@
+/home/brendan/GITROOT/ThunderAggregator/rust/rust_hello/target/debug/deps/heck-647f2b168ebefe44.d: /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lib.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/kebab.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lower_camel.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_kebab.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_snake.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/snake.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/title.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/train.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/upper_camel.rs
+
+/home/brendan/GITROOT/ThunderAggregator/rust/rust_hello/target/debug/deps/libheck-647f2b168ebefe44.rmeta: /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lib.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/kebab.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lower_camel.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_kebab.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_snake.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/snake.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/title.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/train.rs /home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/upper_camel.rs
+
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lib.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/kebab.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lower_camel.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_kebab.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/shouty_snake.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/snake.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/title.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/train.rs:
+/home/brendan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/upper_camel.rs:

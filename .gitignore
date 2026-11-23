@@ -1,0 +1,155 @@
+
+# ============================================================
+# Polyglot .gitignore
+# Docker | CMake | C/C++ | Rust/Cargo | Linux
+# ============================================================
+
+# ------------------------------------------------------------
+# CMake / C++ build artifacts
+# ------------------------------------------------------------
+build/
+build-*/
+cmake-build-*/
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Testing/
+_compile_commands.json
+compile_commands.json
+install_manifest.txt
+CPackConfig.cmake
+CPackSourceConfig.cmake
+
+# Generated Make/Ninja files (avoid ignoring source Makefiles)
+build.ninja
+.ninja_deps
+.ninja_log
+rules.ninja
+
+# Object files / libraries / executables
+*.o
+*.obj
+*.lo
+*.a
+*.la
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.elf
+*.bin
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# Precompiled headers
+*.gch
+*.pch
+
+# ------------------------------------------------------------
+# Rust / Cargo
+# ------------------------------------------------------------
+target/
+**/*.rs.bk
+
+# Keep Cargo.lock for applications and reproducible builds.
+# Uncomment only if your library policy requires ignoring it.
+# Cargo.lock
+
+# ------------------------------------------------------------
+# Docker / containers
+# ------------------------------------------------------------
+.docker/
+docker-data/
+docker-volumes/
+.docker-volumes/
+container-data/
+
+# Local Compose overrides
+docker-compose.override.yml
+docker-compose.override.yaml
+compose.override.yml
+compose.override.yaml
+
+# Docker secrets / local environment
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# ------------------------------------------------------------
+# IDE / editors
+# ------------------------------------------------------------
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.code-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------
+# Logs / debugging / profiling
+# ------------------------------------------------------------
+*.log
+logs/
+*.pid
+*.stackdump
+core
+core.*
+vgcore.*
+perf.data
+perf.data.*
+callgrind.out.*
+cachegrind.out.*
+
+# ------------------------------------------------------------
+# Coverage / testing
+# ------------------------------------------------------------
+coverage/
+coverage-*/
+htmlcov/
+lcov.info
+*.profraw
+*.profdata
+
+# ------------------------------------------------------------
+# Temporary files / caches
+# ------------------------------------------------------------
+.cache/
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# ------------------------------------------------------------
+# Python tooling (occasionally used in build scripts)
+# ------------------------------------------------------------
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# ------------------------------------------------------------
+# Local configuration / secrets
+# ------------------------------------------------------------
+*.local
+*.secret
+*.secrets
+secrets/
+credentials/
+

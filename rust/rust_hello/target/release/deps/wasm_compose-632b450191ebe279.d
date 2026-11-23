@@ -1,0 +1,11 @@
+/thunder_root/rust/rust_hello/target/release/deps/wasm_compose-632b450191ebe279.d: /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/lib.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/composer.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/config.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/encoding.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/graph.rs
+
+/thunder_root/rust/rust_hello/target/release/deps/libwasm_compose-632b450191ebe279.rlib: /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/lib.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/composer.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/config.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/encoding.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/graph.rs
+
+/thunder_root/rust/rust_hello/target/release/deps/libwasm_compose-632b450191ebe279.rmeta: /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/lib.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/composer.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/config.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/encoding.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/graph.rs
+
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/lib.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/composer.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/config.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/encoding.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasm-compose-0.240.0/src/graph.rs:

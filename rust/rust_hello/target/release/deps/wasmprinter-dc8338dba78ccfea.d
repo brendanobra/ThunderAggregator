@@ -1,0 +1,11 @@
+/thunder_root/rust/rust_hello/target/release/deps/wasmprinter-dc8338dba78ccfea.d: /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/lib.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/component.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/operand_stack.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/operator.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/print.rs
+
+/thunder_root/rust/rust_hello/target/release/deps/libwasmprinter-dc8338dba78ccfea.rlib: /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/lib.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/component.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/operand_stack.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/operator.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/print.rs
+
+/thunder_root/rust/rust_hello/target/release/deps/libwasmprinter-dc8338dba78ccfea.rmeta: /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/lib.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/component.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/operand_stack.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/operator.rs /home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/print.rs
+
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/lib.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/component.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/operand_stack.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/operator.rs:
+/home/rdk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/wasmprinter-0.240.0/src/print.rs:

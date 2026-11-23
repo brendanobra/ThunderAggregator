@@ -26,6 +26,7 @@ fn main() {
     // cargo tells us where the compiled artifact lives
     let out_dir = PathBuf::from(env::var("OUT_DIR").unwrap());
     let source_path = out_dir.join(&lib_filename);
+    println!("cargo:warning=outdir, source_path_dir {} → {}", out_dir.display(), source_path.display());
 
     // Cargo may generate multiple "OUT_DIR" subdirectories.
     // We retry until the file actually exists.
@@ -46,16 +47,21 @@ fn main() {
         });
 
     if !install_dir.exists() {
-        fs::create_dir_all(&install_dir)
-            .expect("Failed to create Thunder install/lib directory");
+        fs::create_dir_all(&install_dir).expect("Failed to create Thunder install/lib directory");
     }
+    println!("cargo:warning=install_dir {}", install_dir.display());
+
 
     let dest_path = install_dir.join(&lib_filename);
 
     // ----------------------------------------------
     // 3. Copy the built library into Thunder install
     // ----------------------------------------------
-    println!("cargo:warning=Copying {} → {}", lib_path.display(), dest_path.display());
+    println!(
+        "cargo:warning=Copying {} → {}",
+        lib_path.display(),
+        dest_path.display()
+    );
     fs::copy(&lib_path, &dest_path)
         .expect("Failed to copy shared library into Thunder install directory");
 }
