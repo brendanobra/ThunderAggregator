@@ -18,13 +18,16 @@ echo "[entrypoint] rdk before: uid=${CURRENT_UID} gid=${CURRENT_GID}" >&2
 if [ "${CURRENT_GID}" != "${HOST_GID}" ]; then
     echo "[entrypoint] changing gid of ${BUILD_USER} ${CURRENT_GID} -> ${HOST_GID}" >&2
     groupmod -o -g "${HOST_GID}" "${BUILD_USER}"
+    echo "done"
 fi
 
 # change user id if needed
 if [ "${CURRENT_UID}" != "${HOST_UID}" ]; then
     echo "[entrypoint] changing uid of ${BUILD_USER} ${CURRENT_UID} -> ${HOST_UID}" >&2
     usermod -o -u "${HOST_UID}" "${BUILD_USER}"
+    echo "done"
 fi
+echo "uid/gid set"
 
 # optional: only fix ownership of rdk's home (small tree), *not* /thunder_root
 if [ -d "/home/${BUILD_USER}" ]; then
@@ -35,4 +38,12 @@ echo "[entrypoint] rdk after: uid=$(id -u ${BUILD_USER}) gid=$(id -g ${BUILD_USE
 echo "[entrypoint] exec as ${BUILD_USER}: $*" >&2
 
 # make sure gosu is installed in the image; otherwise this will fail
+export HOME="/home/${BUILD_USER}"
+export USER="${BUILD_USER}"
+export LOGNAME="${BUILD_USER}"
+export CARGO_HOME="${HOME}/.cargo"
+
+mkdir -p "${CARGO_HOME}"
+chown "${HOST_UID}:${HOST_GID}" "${CARGO_HOME}"
+
 exec gosu "${BUILD_USER}:${BUILD_USER}" "$@"

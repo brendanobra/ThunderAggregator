@@ -51,11 +51,12 @@ RUN  meson setup --warnlevel 3 --werror build
 RUN  ninja -C build
 RUN  ninja -C build install
 
+ENV RUSTUP_HOME=/opt/rustup
+ENV CARGO_HOME=/opt/cargo
+ENV PATH="/opt/cargo/bin:${PATH}"
 
-USER "${USERNAME}"
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable
-ENV PATH="/home/rdk/.cargo/bin:${PATH}"
-
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \
+    | sh -s -- -y --profile minimal --no-modify-path
 
 ENV BITBAKE_DIR=${RDK_TOOLS}/poky 
 WORKDIR "${RDK_TOOLS}"
